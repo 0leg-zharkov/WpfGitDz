@@ -75,6 +75,9 @@ namespace WpfGitDz
                 case '*':
                     LabelNumbers.Content = (number1 * number2).ToString();
                     break;
+                case '/':
+                    LabelNumbers.Content = (number1 / number2).ToString();
+                    break;
             }
         }
     }
