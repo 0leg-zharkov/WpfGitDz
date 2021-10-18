@@ -54,7 +54,7 @@ namespace WpfGitDz
             LabelNumbers.Content = "";
         }
 
-        private void Button_Click_dele(object sender, RoutedEventArgs e)
+        private void Button_Click_Dele(object sender, RoutedEventArgs e)
         {
             number1 = Int32.Parse(LabelNumbers.Content.ToString());
             symbol = '/';
