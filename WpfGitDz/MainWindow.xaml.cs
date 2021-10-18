@@ -47,6 +47,13 @@ namespace WpfGitDz
             LabelNumbers.Content = "";
         }
 
+        private void Button_Click_Umn(object sender, RoutedEventArgs e)
+        {
+            number1 = Int32.Parse(LabelNumbers.Content.ToString());
+            symbol = '*';
+            LabelNumbers.Content = "";
+        }
+
         private void Button_Click_Res(object sender, RoutedEventArgs e)
         {
             number2 = Int32.Parse(LabelNumbers.Content.ToString());
